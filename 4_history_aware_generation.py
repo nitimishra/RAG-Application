@@ -78,7 +78,7 @@ def ask_question(user_question):
     chat_history.append(AIMessage(content=answer))
     
     print(f"Answer: {answer}")
-    return answer
+    return docs, answer
 
 # Simple chat loop
 def start_chat():
